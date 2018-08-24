@@ -17,6 +17,12 @@ def times_iterator(number_of_times)
   end
 end
 
+counter = 0
+while counter < 20
+  puts "The current number is less than 20."
+  counter += 1
+end
+
 def until_iterator(number_of_times)
   
  counter = 0
