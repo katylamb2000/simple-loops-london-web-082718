@@ -17,17 +17,25 @@ def times_iterator(number_of_times)
   end
 end
 
-counter = 0
-while counter < 20
-  puts "The current number is less than 20."
-  counter += 1
+def while_iterator(number_of_times)
+  
+  phrase = "Welcome to Flatiron School's Web Development Course!"
+  counter = 0 
+   
+  while counter < number_of_times 
+  puts phrase
+ counter += 1
 end
+end
+
+
 
 def until_iterator(number_of_times)
   
  counter = 0
- counter += 1
+ 
  until counter == number_of_times
 puts phrase
+counter += 1
 end
 end
